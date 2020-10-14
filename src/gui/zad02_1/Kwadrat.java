@@ -1,4 +1,4 @@
-package gui.zad02;
+package gui.zad02_1;
 
 public class Kwadrat extends Figura
 {
