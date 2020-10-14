@@ -5,15 +5,24 @@ public class Main
     public static void main(String[] args)
     {
         Spiewak s1 = new Spiewak("Eminem"){
-            /*<- kod */
+            @Override
+            String spiewaj() {
+                return "You own it, you better never let it go";
+            }
         };
 
         Spiewak s2 = new Spiewak("Eagles"){
-            /*<- kod */
+            @Override
+            String spiewaj() {
+                return "Hotel California";
+            }
         };
 
         Spiewak s3 = new Spiewak("Dżem"){
-            /*<- kod */
+            @Override
+            String spiewaj() {
+                return "Chwila, która trwa może być najlepszą z Twoich chwil...";
+            }
         };
 
         Spiewak sp[] = {s1, s2, s3};
