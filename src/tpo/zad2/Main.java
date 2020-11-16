@@ -34,7 +34,5 @@ public class Main {
     System.out.println(rate1);
     System.out.println("Kurs złotego wobec " + s.currencyCode + " :");
     System.out.println(rate2);
-
-    // Niestety nie umiem zrobic tego w GUI :c, ale zrobilem prowizorycznie w konsoli :D
   }
 }
