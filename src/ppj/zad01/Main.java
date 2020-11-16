@@ -14,7 +14,6 @@ public class Main
                 {
                     tab[j][k] = x;
                 }
-
             }
             x++;
         }

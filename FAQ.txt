@@ -1,9 +1,8 @@
 W folderze "src" znajdują się foldery odpowiadające poszczególnym przedmiotom uczelnianym, poniżej podaje rozwinięcia skrótów:
 ASD - algorytmy i struktury danych
-GUI - Programowanie obiektowe i Graficzny Interfejs Użytkownika
-NAI - Narzędzia sztucznej inteligencji
 PPJ - Podstawy programowania w Javie
 PSM - Podstawy symulacji komputerowych
+NAI - Narzędzia sztucznej inteligencji
 SKJ - Sieci komputerowe i programowanie sieciowe w Javie
 TPO - Technologie programowania rozproszonego
 UTP - Uniwersalne techniki programowania

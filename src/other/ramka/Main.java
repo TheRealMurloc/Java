@@ -10,7 +10,7 @@ public class Main
 	{
 		for(int i = 0; i < 100; i++)
 		{
-			border[i] = '❤';
+			border[i] = '✹';
 		}
 		//❤✿❃❂❁❀✾✿✽✼✻✺✹✸✷ ✶✵✴❄❅❆❇❈❉❊❋❖☀╠═╝ ❀
 		String string = "aaa";
@@ -92,7 +92,6 @@ public class Main
 		System.out.println();
 		for(int i = 0; i < 84; i++)
 		{
-			
 			System.out.print(border[i]);
 		}
 	}

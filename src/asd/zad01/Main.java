@@ -14,7 +14,7 @@ public class Main
 		Integer startInd = null;
 		Integer endInd = null;
 		int comp = 0;
-		Cionk wynik = new Cionk();
+		Ciąg wynik = new Ciąg();
 		ArrayList<Integer> dane = new ArrayList<Integer>();
 		
 		BufferedReader br = null;
@@ -36,16 +36,16 @@ public class Main
 		
 		
 		
-		for(int i = 0; i < (size-wynik.cionkSize); i++)
+		for(int i = 0; i < (size-wynik.ciągSize); i++)
 		{
-			Cionk test = new Cionk(dane.get(i), maxDiff);
+			Ciąg test = new Ciąg(dane.get(i), maxDiff);
 			for(int j = i+1 ; j < size && test.czyNalezy(dane.get(j)) ; j++);
 			comp += test.comp;
-			if(test.cionkSize > wynik.cionkSize)
+			if(test.ciągSize > wynik.ciągSize)
 			{
 				wynik = test;
 				startInd = i;
-				endInd = i+wynik.cionkSize-1;
+				endInd = i+wynik.ciągSize -1;
 			}
 		}
 		System.out.println(startInd);

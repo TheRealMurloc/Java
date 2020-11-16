@@ -12,7 +12,5 @@ public class Main {
 		System.out.println(str);
 		boolean b = m.find();
 		System.out.println(b);
-
 	}
-
 }

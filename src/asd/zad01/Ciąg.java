@@ -2,27 +2,27 @@ package asd.zad01;
 
 import java.util.ArrayList;
 
-public class Cionk 
+public class Ciąg
 {
 	private Integer minInd;
 	private Integer maxInd;
 	private Integer maxDiff;
-	Integer cionkSize;
+	Integer ciągSize;
 	ArrayList<Integer> al = new ArrayList<Integer>();
 	int comp = 0;
 	
-	public Cionk()
+	public Ciąg()
 	{
-		cionkSize = 0;
+		ciągSize = 0;
 	}
 	
-	public Cionk(Integer a, Integer maxDiff)
+	public Ciąg(Integer a, Integer maxDiff)
 	{
 		this.maxDiff = maxDiff;
 		al.add(a);
 		maxInd = 0;
 		minInd = 0;
-		cionkSize = 1;
+		ciągSize = 1;
 	}
 	
 	public boolean czyNalezy(Integer a)
@@ -58,23 +58,23 @@ public class Cionk
 	public void addInt(Integer a)
 	{
 		al.add(a);
-		cionkSize++;
+		ciągSize++;
 	}
 	public void addIntMax(Integer a)
 	{
 		al.add(a);
-		maxInd = cionkSize;
-		cionkSize++;
+		maxInd = ciągSize;
+		ciągSize++;
 	}
 	public void addIntMin(Integer a)
 	{
 		al.add(a);
-		minInd = cionkSize;
-		cionkSize++;
+		minInd = ciągSize;
+		ciągSize++;
 	}
 	public String toString()
 	{
-		for(int i = 0; i < cionkSize; i++)
+		for(int i = 0; i < ciągSize; i++)
 		{
 			System.out.println(al.get(i));
 		}

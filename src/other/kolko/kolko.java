@@ -1,4 +1,6 @@
-public class kolko 
+package other.kolko;
+
+public class kolko
 {
 	public static void main(String[]args)
 	{
@@ -58,10 +60,5 @@ public class kolko
 				}
 				System.out.println();
 			}
-		
-		
-
-	
 	}
-
 }

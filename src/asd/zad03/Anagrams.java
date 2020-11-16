@@ -1,4 +1,4 @@
-package other.anagrams;
+package asd.zad03;
 
 import java.io.IOException;
 import java.net.MalformedURLException;

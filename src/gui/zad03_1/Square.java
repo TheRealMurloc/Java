@@ -1,6 +1,6 @@
 package gui.zad03_1;
 
-public class Square implements Comparable
+public class Square
 {
     static int counter;
     int length;
@@ -24,13 +24,4 @@ public class Square implements Comparable
         return "(" + number + "): " + getArea();
     }
 
-    @Override
-    public int compareTo(Object o) {
-        if(o.getArea() == this.getArea())
-            return 0;
-        else if(o.getArea() > this.getArea())
-            return 1;
-        else
-            return -1;
-    }
 }
